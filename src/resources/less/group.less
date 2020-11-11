@@ -1,0 +1,113 @@
+@group-header-toolar-ht: @header-height - 16px;
+.group-block {
+  width: @group-width;
+  height: 100%;
+  background-color: #2e383d;
+  .group-header {
+    height: @header-height;
+    .group-header-toolbar {
+      padding: 8px @default-padding 8px @default-padding;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 16px;
+      position: relative;
+      span {
+        line-height: @group-header-toolar-ht;
+      }
+    }
+  }
+  .group-item-container {
+    padding-bottom: @group-item-height;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 48px);
+    .group-item-row {
+      position: relative;
+      // height: @group-item-height;
+      // line-height: @group-item-height;
+      // font-weight: bold;
+      border-top: 1px solid #222c30;
+      color: #e9edf0;
+      cursor: pointer !important;
+      &:hover {
+        background-color: #222c30;
+        .group-item-tool-toggle {
+          display: block;
+        }
+      }
+      a {
+        width: 100%;
+        height: 100%;
+        i {
+          position: absolute;
+          font-size: 14px;
+          color: #8f8f8f;
+          top: (@group-item-height - 14px)/2;
+        }
+        span {
+          position: absolute;
+          font-size: 14px;
+          color: #e9edf0;
+          padding-right: @default-padding;
+        }
+      }
+      .group-item-tool-toggle {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 32px;
+        // background-color: #222c30;
+        text-align: center;
+        display: block;
+        &:hover {
+          background-color: #28c9a9;
+        }
+      }
+      &-l1 {
+        height: @group-item-height;
+        line-height: @group-item-height;
+        border: none;
+        a {
+          i {
+            padding-left: @default-padding;
+          }
+          span {
+            width: 100%;
+            padding-left: @default-padding + 20px;
+          }
+        }
+      }
+      &-l2 {
+        height: @group-item-height;
+        line-height: @group-item-height;
+        border: none;
+        a {
+          i {
+            padding-left: @default-padding * 2;
+          }
+          span {
+            width: 100%;
+            padding-left: @default-padding * 2 + 20px;
+          }
+        }
+      }
+    }
+    .group-item-row.active {
+      background-color: #6e95d7;
+      .group-item-tool-toggle {
+        background-color: #6e95d7;
+        &:hover {
+          background-color: #28c9a9;
+        }
+      }
+      a {
+        i {
+          color: #ffffff;
+        }
+        span {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

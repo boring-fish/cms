@@ -1,0 +1,743 @@
+@font-face {
+  font-family: 'nazaio-iconfont';
+  src: url('./nazaio-iconfont.eot?t=1589771009521'); /* IE9*/
+  src: url('./nazaio-iconfont.eot?t=1589771009521#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./nazaio-iconfont.woff2?t=1589771009521') format('woff2'),
+    url('./nazaio-iconfont.woff?t=1589771009521') format('woff'),
+    url('./nazaio-iconfont.ttf?t=1589771009521') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      url('./nazaio-iconfont.svg?t=1589771009521#nazaio-iconfont') format('svg'); /* iOS 4.1- */
+}
+
+i[class^='nz-'],
+i[class*=' nz-'] {
+  font-family: 'nazaio-iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nz-HR:before {
+  content: '\ea01';
+}
+
+.nz-abtest:before {
+  content: '\ea02';
+}
+
+.nz-ad-account-analysis:before {
+  content: '\ea03';
+}
+
+.nz-ad-campaign-analysis:before {
+  content: '\ea04';
+}
+
+.nz-ad-creative-analysis:before {
+  content: '\ea05';
+}
+
+.nz-ad-group-analysis:before {
+  content: '\ea06';
+}
+
+.nz-ad-keyword-analysis:before {
+  content: '\ea07';
+}
+
+.nz-ad:before {
+  content: '\ea08';
+}
+
+.nz-add-directory:before {
+  content: '\ea09';
+}
+
+.nz-add-dyn-group:before {
+  content: '\ea0a';
+}
+
+.nz-add-static-group:before {
+  content: '\ea0b';
+}
+
+.nz-add:before {
+  content: '\ea0c';
+}
+
+.nz-added-to-list:before {
+  content: '\ea0d';
+}
+
+.nz-adip:before {
+  content: '\ea0e';
+}
+
+.nz-age-analysis:before {
+  content: '\ea0f';
+}
+
+.nz-aike:before {
+  content: '\ea10';
+}
+
+.nz-analy-area:before {
+  content: '\ea11';
+}
+
+.nz-analy-dash:before {
+  content: '\ea12';
+}
+
+.nz-analy-event:before {
+  content: '\ea13';
+}
+
+.nz-analy-funnel:before {
+  content: '\ea14';
+}
+
+.nz-analy-group:before {
+  content: '\ea15';
+}
+
+.nz-analy-personas:before {
+  content: '\ea16';
+}
+
+.nz-analy-timeDomain:before {
+  content: '\ea17';
+}
+
+.nz-analytics-article:before {
+  content: '\ea18';
+}
+
+.nz-analytics-wechat:before {
+  content: '\ea19';
+}
+
+.nz-arrow-to-top:before {
+  content: '\ea1a';
+}
+
+.nz-baidupan:before {
+  content: '\ea1b';
+}
+
+.nz-bar-chart:before {
+  content: '\ea1c';
+}
+
+.nz-blog:before {
+  content: '\ea1d';
+}
+
+.nz-campaign:before {
+  content: '\ea1e';
+}
+
+.nz-champion:before {
+  content: '\ea1f';
+}
+
+.nz-check:before {
+  content: '\ea20';
+}
+
+.nz-clients:before {
+  content: '\ea21';
+}
+
+.nz-consultant:before {
+  content: '\ea22';
+}
+
+.nz-contact-is-on-list:before {
+  content: '\ea23';
+}
+
+.nz-contact-remove:before {
+  content: '\ea24';
+}
+
+.nz-contact-secure:before {
+  content: '\ea25';
+}
+
+.nz-contacts:before {
+  content: '\ea26';
+}
+
+.nz-corp-wx-solid:before {
+  content: '\ea27';
+}
+
+.nz-corp-wx:before {
+  content: '\ea28';
+}
+
+.nz-cps:before {
+  content: '\ea29';
+}
+
+.nz-dashboard-alert:before {
+  content: '\ea2a';
+}
+
+.nz-dashboard-bar:before {
+  content: '\ea2b';
+}
+
+.nz-dashboard-cattr:before {
+  content: '\ea2c';
+}
+
+.nz-dashboard-close:before {
+  content: '\ea2d';
+}
+
+.nz-dashboard-eattr:before {
+  content: '\ea2e';
+}
+
+.nz-dashboard-edit:before {
+  content: '\ea2f';
+}
+
+.nz-dashboard-line-area:before {
+  content: '\ea30';
+}
+
+.nz-dashboard-line:before {
+  content: '\ea31';
+}
+
+.nz-dashboard-more:before {
+  content: '\ea32';
+}
+
+.nz-dashboard-num:before {
+  content: '\ea33';
+}
+
+.nz-dashboard-pie:before {
+  content: '\ea34';
+}
+
+.nz-dashboard-search:before {
+  content: '\ea35';
+}
+
+.nz-dashboard-table:before {
+  content: '\ea36';
+}
+
+.nz-dashboard:before {
+  content: '\ea37';
+}
+
+.nz-delay:before {
+  content: '\ea38';
+}
+
+.nz-delete:before {
+  content: '\ea39';
+}
+
+.nz-detail-report:before {
+  content: '\ea3a';
+}
+
+.nz-diff-domain:before {
+  content: '\ea3b';
+}
+
+.nz-dingtalk-logo:before {
+  content: '\ea3c';
+}
+
+.nz-dingtalk:before {
+  content: '\ea3d';
+}
+
+.nz-distributor:before {
+  content: '\ea3e';
+}
+
+.nz-distributor2:before {
+  content: '\ea3f';
+}
+
+.nz-dyn-group:before {
+  content: '\ea40';
+}
+
+.nz-dyn-udf:before {
+  content: '\ea41';
+}
+
+.nz-edition:before {
+  content: '\ea42';
+}
+
+.nz-eject-from-journey:before {
+  content: '\ea43';
+}
+
+.nz-enable-release:before {
+  content: '\ea44';
+}
+
+.nz-event:before {
+  content: '\ea45';
+}
+
+.nz-exmail:before {
+  content: '\ea46';
+}
+
+.nz-fail:before {
+  content: '\ea47';
+}
+
+.nz-fangcloud:before {
+  content: '\ea48';
+}
+
+.nz-field-check-condition:before {
+  content: '\ea49';
+}
+
+.nz-field-check:before {
+  content: '\ea4a';
+}
+
+.nz-flow-ad:before {
+  content: '\ea4b';
+}
+
+.nz-flow-group:before {
+  content: '\ea4c';
+}
+
+.nz-folder:before {
+  content: '\ea4d';
+}
+
+.nz-formula:before {
+  content: '\ea4e';
+}
+
+.nz-funnel:before {
+  content: '\ea4f';
+}
+
+.nz-fxiaoke:before {
+  content: '\ea50';
+}
+
+.nz-gender-analysis:before {
+  content: '\ea51';
+}
+
+.nz-gensee:before {
+  content: '\ea52';
+}
+
+.nz-gmsg:before {
+  content: '\ea53';
+}
+
+.nz-graph:before {
+  content: '\ea54';
+}
+
+.nz-group-close:before {
+  content: '\ea55';
+}
+
+.nz-halo-setting:before {
+  content: '\ea56';
+}
+
+.nz-hdx:before {
+  content: '\ea57';
+}
+
+.nz-home:before {
+  content: '\ea58';
+}
+
+.nz-image-text-analysis:before {
+  content: '\ea59';
+}
+
+.nz-it:before {
+  content: '\ea5a';
+}
+
+.nz-jindata:before {
+  content: '\ea5b';
+}
+
+.nz-journey-template:before {
+  content: '\ea5c';
+}
+
+.nz-journey-tip:before {
+  content: '\ea5d';
+}
+
+.nz-lesson:before {
+  content: '\ea5e';
+}
+
+.nz-line-chart:before {
+  content: '\ea5f';
+}
+
+.nz-link-app:before {
+  content: '\ea60';
+}
+
+.nz-marketing:before {
+  content: '\ea61';
+}
+
+.nz-mengdian:before {
+  content: '\ea62';
+}
+
+.nz-more:before {
+  content: '\ea63';
+}
+
+.nz-move-out-group:before {
+  content: '\ea64';
+}
+
+.nz-mutex-group:before {
+  content: '\ea65';
+}
+
+.nz-mutex-rest:before {
+  content: '\ea66';
+}
+
+.nz-mutex-single-group:before {
+  content: '\ea67';
+}
+
+.nz-my-account:before {
+  content: '\ea68';
+}
+
+.nz-no-data:before {
+  content: '\ea69';
+}
+
+.nz-notifications:before {
+  content: '\ea6a';
+}
+
+.nz-num-chart:before {
+  content: '\ea6b';
+}
+
+.nz-operation_log:before {
+  content: '\ea6c';
+}
+
+.nz-package:before {
+  content: '\ea6d';
+}
+
+.nz-paperplane:before {
+  content: '\ea6e';
+}
+
+.nz-person:before {
+  content: '\ea6f';
+}
+
+.nz-pie-chart:before {
+  content: '\ea70';
+}
+
+.nz-plus:before {
+  content: '\ea71';
+}
+
+.nz-private-app:before {
+  content: '\ea72';
+}
+
+.nz-qihooad:before {
+  content: '\ea73';
+}
+
+.nz-qlchat:before {
+  content: '\ea74';
+}
+
+.nz-qrcode-ordinary:before {
+  content: '\ea75';
+}
+
+.nz-qrcode-promotion:before {
+  content: '\ea76';
+}
+
+.nz-qrcode:before {
+  content: '\ea77';
+}
+
+.nz-report:before {
+  content: '\ea78';
+}
+
+.nz-s-dp-add:before {
+  content: '\ea79';
+}
+
+.nz-s-dp-delete:before {
+  content: '\ea7a';
+}
+
+.nz-s-dp-edit:before {
+  content: '\ea7b';
+}
+
+.nz-s-dp-operator:before {
+  content: '\ea7c';
+}
+
+.nz-s-dp-orgs:before {
+  content: '\ea7d';
+}
+
+.nz-s-dp-permission:before {
+  content: '\ea7e';
+}
+
+.nz-s-dp-role:before {
+  content: '\ea7f';
+}
+
+.nz-s-dp-status:before {
+  content: '\ea80';
+}
+
+.nz-s-dp-tip:before {
+  content: '\ea81';
+}
+
+.nz-sales:before {
+  content: '\ea82';
+}
+
+.nz-salesforce:before {
+  content: '\ea83';
+}
+
+.nz-school:before {
+  content: '\ea84';
+}
+
+.nz-search:before {
+  content: '\ea85';
+}
+
+.nz-sendcloud:before {
+  content: '\ea86';
+}
+
+.nz-setting:before {
+  content: '\ea87';
+}
+
+.nz-setting2:before {
+  content: '\ea88';
+}
+
+.nz-share-forward:before {
+  content: '\ea89';
+}
+
+.nz-shenma-ad:before {
+  content: '\ea8a';
+}
+
+.nz-short-url:before {
+  content: '\ea8b';
+}
+
+.nz-shouqianba:before {
+  content: '\ea8c';
+}
+
+.nz-sidebar-close:before {
+  content: '\ea8d';
+}
+
+.nz-site:before {
+  content: '\ea8e';
+}
+
+.nz-sms:before {
+  content: '\ea8f';
+}
+
+.nz-sogouad:before {
+  content: '\ea90';
+}
+
+.nz-stages:before {
+  content: '\ea91';
+}
+
+.nz-static-group:before {
+  content: '\ea92';
+}
+
+.nz-statistic-analysis:before {
+  content: '\ea93';
+}
+
+.nz-submitted-form:before {
+  content: '\ea94';
+}
+
+.nz-success:before {
+  content: '\ea95';
+}
+
+.nz-superadmin:before {
+  content: '\ea96';
+}
+
+.nz-sxl:before {
+  content: '\ea97';
+}
+
+.nz-sync-wechat:before {
+  content: '\ea98';
+}
+
+.nz-system:before {
+  content: '\ea99';
+}
+
+.nz-takedown:before {
+  content: '\ea9a';
+}
+
+.nz-tencent-email:before {
+  content: '\ea9b';
+}
+
+.nz-tencent-sms:before {
+  content: '\ea9c';
+}
+
+.nz-term:before {
+  content: '\ea9d';
+}
+
+.nz-tower:before {
+  content: '\ea9e';
+}
+
+.nz-try-connect:before {
+  content: '\ea9f';
+}
+
+.nz-ude:before {
+  content: '\eaa0';
+}
+
+.nz-udf:before {
+  content: '\eaa1';
+}
+
+.nz-udg:before {
+  content: '\eaa2';
+}
+
+.nz-url:before {
+  content: '\eaa3';
+}
+
+.nz-used:before {
+  content: '\eaa4';
+}
+
+.nz-user-analysis:before {
+  content: '\eaa5';
+}
+
+.nz-user-manage:before {
+  content: '\eaa6';
+}
+
+.nz-user-right:before {
+  content: '\eaa7';
+}
+
+.nz-vhall:before {
+  content: '\eaa8';
+}
+
+.nz-web:before {
+  content: '\eaa9';
+}
+
+.nz-website:before {
+  content: '\eaaa';
+}
+
+.nz-wechat-article:before {
+  content: '\eaab';
+}
+
+.nz-wechat-card:before {
+  content: '\eaac';
+}
+
+.nz-wechat:before {
+  content: '\eaad';
+}
+
+.nz-weibo:before {
+  content: '\eaae';
+}
+
+.nz-weimob:before {
+  content: '\eaaf';
+}
+
+.nz-weiyunda:before {
+  content: '\eab0';
+}
+
+.nz-wen:before {
+  content: '\eab1';
+}
+
+.nz-workorder:before {
+  content: '\eab2';
+}
+
+.nz-wxdynmenu:before {
+  content: '\eab3';
+}
+
+.nz-youzan:before {
+  content: '\eab4';
+}
+
+.nz-yunpian:before {
+  content: '\eab5';
+}

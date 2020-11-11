@@ -1,0 +1,62 @@
+$sidebar-width: 40px;
+$header-height: 48px;
+// width of group for view contacts and qrcode
+$group-width: 200px;
+$group-item-height: 34px;
+$icon-color-default: $nz-color-nav-text;
+$default-padding: 14px;
+
+$color-info: #2f96b4;
+$color-error: $nz-color-fail;
+$color-success: $nz-color-success;
+$color-warning: $nz-color-warn;
+
+$color-info-background: rgba(47, 150, 180, 0.2);
+$color-error-background: rgba(237, 64, 20, 0.2);
+$color-success-background: rgba(25, 190, 107, 0.2);
+$color-warning-background: rgba(255, 153, 0, 0.2);
+
+// $z-index-level-default: 1000; // iview modal default z-index
+// $z-index-level-10: 1010;
+// $z-index-level-20: 1500;
+// $z-index-level-30: 2000;
+// $z-index-level-40: 2060;
+// $z-index-level-50: 3000;
+// $z-index-level-60: 4000;
+// $z-index-level-90: 9000;
+$z-index-level-max: 9999;
+
+$primary-color: $nz-color-main-primary;
+$split-color: #eaeaea;
+$font-color-base: $nz-color-text-primary;
+// $font-color-label: rgba(12, 42, 76, 0.5);
+$font-color-label: $nz-color-text-secondary;
+$font-size-base: 14px;
+
+// .z-index-level-default {
+//   z-index: $z-index-level-default !important;
+// }
+// .z-index-level-10 {
+//   z-index: $z-index-level-10 !important;
+// }
+// .z-index-level-20 {
+//   z-index: $z-index-level-20 !important;
+// }
+// .z-index-level-30 {
+//   z-index: $z-index-level-30 !important;
+// }
+// .z-index-level-40 {
+//   z-index: $z-index-level-40 !important;
+// }
+// .z-index-level-50 {
+//   z-index: $z-index-level-50 !important;
+// }
+// .z-index-level-60 {
+//   z-index: $z-index-level-60 !important;
+// }
+// .z-index-level-90 {
+//   z-index: $z-index-level-90 !important;
+// }
+// .z-index-level-max {
+//   z-index: $z-index-level-max !important;
+// }

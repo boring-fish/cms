@@ -1,0 +1,62 @@
+.noti-cell {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 2px solid;
+  margin-bottom: 20px;
+}
+
+.noti-cell-info {
+  border-color: @color-info;
+  background-color: @color-info-background;
+  .noti-cell-line1 {
+    border-color: @color-info;
+  }
+}
+
+.noti-cell-error {
+  border-color: @nz-color-fail;
+  background-color: @nz-color-fail-10;
+  .noti-cell-line1 {
+    border-color: @nz-color-fail;
+  }
+}
+
+.noti-cell-success {
+  border-color: @nz-color-success;
+  background-color: @nz-color-success-10;
+  .noti-cell-line1 {
+    border-color: @nz-color-success;
+  }
+}
+
+.noti-cell-warn,
+.noti-cell-warning {
+  border-color: @nz-color-warn;
+  background-color: @nz-color-warn-10;
+  .noti-cell-line1 {
+    border-color: @nz-color-warn;
+  }
+}
+
+.noti-cell-line {
+  margin: 0px 10px;
+  padding: 10px 0px;
+}
+
+.noti-cell-line1 {
+  display: block;
+  font-weight: bold;
+  border-bottom: 1px solid;
+  .noti-time {
+    display: inline-block;
+  }
+  .noti-actions {
+    margin-left: 20px;
+    display: inline-block;
+  }
+}
+
+.noti-cell-line2 {
+  display: block;
+}
